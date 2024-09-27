@@ -78,7 +78,7 @@ if (carId) {
       }
     })
     .then((singleCar) => {
-      // pre-compilo i campi del form con i valori del concerto da modificare
+      // pre-compilo i campi del form con i valori  da modificare
       const nameInput = document.getElementById("name");
       const descriptionInput = document.getElementById("description");
       const priceInput = document.getElementById("price");
@@ -88,7 +88,7 @@ if (carId) {
       nameInput.value = singleCar.name;
       descriptionInput.value = singleCar.description;
       priceInput.value = singleCar.price;
-      imageUrlInput.value= singleCar.imageUrl
+      imageUrlInput.value = singleCar.imageUrl;
       brandInput.value = singleCar.brand;
 
       document.getElementsByClassName("btn-primary")[0].innerText = "MODIFICA";

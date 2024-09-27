@@ -45,7 +45,7 @@ const createCartFromCar = function (arrayCar) {
     <p class="card-text">${car.brand}</p>
     <p class="card-text flex-grow-1">${car.description}</p>
     <p class="card-text">${car.price} € </p>
-    <a href="./dettagli.html?carId=${car._id}" class="btn btn-primary">Dettagli</a>
+    <a href="./dettagli.html?carId=${car._id}" class="btn btn-secondary rounded-pill">Dettagli</a>
   </div>
 </div>`;
     const rowShop = document.getElementById("rowShop");
